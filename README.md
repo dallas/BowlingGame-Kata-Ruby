@@ -85,6 +85,14 @@ initial strike, plus the number of pins in the two bonus rolls. If the player
 does not roll a spare or a strike, they do not receive the extra bonus roll
 (e.g., if they roll a 7 and then a 2, they score 9 pins and their game is done).
 
+Thus the scoring for the game above would be as follows (each frame’s rolls &
+score is in parentheses):
+
+```ruby
+score = (1+4) + (4+5) + (10+5) + (10+10) + (10+0+1) + (0+1) + (10+6) + (10+10) + (10+2+8) + (10+6)
+# => 133
+```
+
 ## Application Requirements
 
 Write a class named “Game” that has two methods:
