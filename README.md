@@ -79,7 +79,11 @@ knocked down in the subsequent roll).
 
 In the tenth frame a player who rolls a spare or strike is allowed to roll the
 extra balls to complete the frame. However, no more than three balls can be
-rolled in the tenth frame.
+rolled in the tenth frame. A skilled player may roll three strikes in the tenth
+frame. Doing so would result in a tenth-frame score of 30 total pins, 10 for the
+initial strike, plus the number of pins in the two bonus rolls. If the player
+does not roll a spare or a strike, they do not receive the extra bonus roll
+(e.g., if they roll a 7 and then a 2, they score 9 pins and their game is done).
 
 ## Application Requirements
 
