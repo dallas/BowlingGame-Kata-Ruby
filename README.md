@@ -133,4 +133,4 @@ The only requirement is that the class `Bowling::Game` remain intact and that
 it implements the public interface `#roll(pins)` and `#score`.
 
 You can run the tests by doing `rake test` (or simply `rake`) from the command
-line, and you can load up the app to play with by running `irb -r ./main`.
+line, and you can load up the app to play with by running `rake console`.

@@ -8,3 +8,10 @@ Rake::TestTask.new do |t|
 end
 
 task default: :test
+
+desc 'Start an interactive console with the Bowling app loaded'
+task :console do
+  require 'pry'
+  require_relative './main'
+  Pry.start
+end
