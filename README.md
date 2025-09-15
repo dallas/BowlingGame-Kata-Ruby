@@ -113,3 +113,13 @@ rolls. Each roll knocks down 0–10 pins.
 The `TenthFrame` class is a special case version of the `Frame` class. The
 tenth and final frame has 2 or 3 rolls. As such, it is different than the
 previous nine frames.
+
+## Development
+
+There is already some initial structure and tests set up for you to build upon.
+The only requirement is that the class `Bowling::Game` remain intact and that
+it implements the public interface `#roll(pins)` and `#score`.
+
+You can run the tests by doing `rspec test` from the command line, and you can
+load up the app to play with by running `irb -r ./lib/bowling_game` or by
+running `irb` and then doing `require_relative ./lib/bowling_game`.
