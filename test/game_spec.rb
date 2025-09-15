@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
-require 'rspec'
-require_relative '../lib/bowling/game'
+require_relative './test_helper'
 
 describe Bowling::Game do
   describe '#roll' do
