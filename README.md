@@ -132,6 +132,5 @@ There is already some initial structure and tests set up for you to build upon.
 The only requirement is that the class `Bowling::Game` remain intact and that
 it implements the public interface `#roll(pins)` and `#score`.
 
-You can run the tests by doing `rspec test` from the command line, and you can
-load up the app to play with by running `irb -r ./lib/bowling_game` or by
-running `irb` and then doing `require_relative ./lib/bowling_game`.
+You can run the tests by doing `rake test` (or simply `rake`) from the command
+line, and you can load up the app to play with by running `irb -r ./main`.

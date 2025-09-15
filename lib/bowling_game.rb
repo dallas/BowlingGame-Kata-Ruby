@@ -2,4 +2,5 @@
 
 module Bowling; end
 
-require_relative './bowling/game'
+pattern = File.join(File.dirname(__FILE__), 'bowling', '*.rb')
+Dir[pattern].each { |filepath| require_relative filepath }
